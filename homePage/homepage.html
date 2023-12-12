@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" href="../../../favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tone Podcast Home Page</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/af41c9832f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="body-container">
+        <!----------------------background-video----------------------------------->
+        <div class="video-container">
+            <video autoplay muted loop id="background-video">
+                <source src="./images/video_background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>     
+    <!---------------------------header section--------------------------------------------->
+
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="logo-container">
+                <img src="./Images/logo_12923.jpg"  class="logo-image"/>
+                <div class="heading-container">
+                    <h1 class="nav-heading">TOne Podcast</h1>
+            
+                  </div>
+             </div>
+            <form class="form-inline search-container">
+                <ul  class="top-list-container">
+                  <li class="list-item"><a class="list-anchor" href="#Categories">Categories</a></li>
+                    <li class="list-item"> <a class="list-anchor" href="#newReleases">New Releases</a></li>
+                    <li class="list-item"><a class="list-anchor" href="#TopOnList">Toponlist</a></li>
+                    <li class="list-item"><a class="list-anchor" href="#Albums">Albums</a></li>
+                    <li class="list-item"><a class="list-anchor" href="#audienceFavorites">Audience Favorites</a></li>
+                   
+                    <li class="list-item"><a class="list-anchor" href="https://teluguone.com/" target="_blank">Tone_Home</a> </li>
+                 </ul>
+              <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning my-2 my-sm-0 search-button" type="submit">Search</button>
+            </form>  
+          </nav>   
+        <div style="padding-bottom:220px;"></div>
+    <!--------------------------------Categories section--------------------------------------------->
+
+    <section id="Categories" style="display:flex;flex-direction:column;">
+        <h1 class="section-heading">Categories</h1>
+          <ul class="categories-container" style="--column-count:6;--grid-gap:6px;--min-container-width:250px;">
+              
+          
+      
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://cdn6.aptoide.com/imgs/1/2/1/121f1490f9f92512dfaa111a38d828f2_icon.png');">
+                <h3 class="categories-image-heading">Tori Radio</h3>      
+                </li></a>
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://www.shutterstock.com/shutterstock/photos/2120434325/display_1500/stock-vector-indian-politician-delivering-speed-during-election-period-vector-illustration-2120434325.jpg');" >
+                <h3 class="categories-image-heading">News & Politics</h3>      
+              </li></a>
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg');" >
+                <h3 class="categories-image-heading">Educational</h3>      
+              </li></a>
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://bolstablog.files.wordpress.com/2008/12/famous-painting-of-praying-hands.jpg');" >
+                <h3 class="categories-image-heading">Devotional & Mythology</h3>      
+          </li></a>
+      
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://thumbs.dreamstime.com/b/businessman-using-tablet-laptop-analyzing-sales-data-economic-growth-graph-chart-business-strategy-digital-marketing-154742021.jpg');">
+                <h3 class="categories-image-heading">Business</h3>      
+              </li></a>
+                
+         
+            <li class="categories-list-item"  style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://cdn.firstcry.com/education/2022/09/14183342/A-Special-Friendship-Story-For-Children.jpg');">
+              <a href="../categoriesPage/categories.html" style="text-decoration:none;" >
+                <h3 class="categories-image-heading">Kids Stories</h3>
+               
+            </a>
+              </li>
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item" style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://www.healthkart.com/connect/wp-content/uploads/2021/09/900x500_banner_HK-Connect_How-to-Improve-Heart-Health-_-Points-To-Keep-In-Mind.jpg');" >
+                <h3 class="categories-image-heading">Health</h3>      
+              </li></a>
+                
+         
+             <a href="../categoriesPage/categories.html" style="text-decoration:none;"><li class="categories-list-item"  style="background-image:linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(255, 255, 255, 0.418)) ,url('https://media.istockphoto.com/id/1355687112/photo/various-sport-equipment-gear.webp?b=1&s=170667a&w=0&k=20&c=hEADFXL4HG9mF94yC5g3JA8lMHn8OZg7hRLoiel_L48=');">
+                <h3 class="categories-image-heading">Sports</h3>      
+              </li></a>
+          </ul>
+      </section>
+    
+    <!----------------------------------New Releases section-------------------------------->
+
+<section id="newReleases" style="display:flex;flex-direction:column;margin:37px;">
+ 
+    <h1 class="section-heading">New Releases</h1>
+    <div style="display:flex;justify-content:space-evenly;">
+      <!-- <div class="add-block1">
+       add block
+      </div> -->
+      <div class="new-releases-container">
+         <div style="position:absoute;"; id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="../newReleasesPage/newreleases.html">
+                <img src="./images/carousalimg2.jpg"  style="cursor:pointer;" class="d-block w-100 img-fluid" alt="carousal-Image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="carousal-heading">Podcast_1</h3>
+                  <p class="carousal-paragraph" >new podcast description based on the category</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="../newReleasesPage/newreleases.html">
+                <img src="./images/carousalimg4.jpg" style="cursor:pointer;" class="d-block w-100 img-fluid" alt="carousal-Image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="carousal-heading" >Podcast_2</h1>
+                  <p class="carousal-paragraph" >new podcast description based on the category</p>
+                </div>
+               </a>
+              </div>
+              <div class="carousel-item">
+                <a href="../newReleasesPage/newreleases.html">
+                <img src="./images/carousalimg3.jpg" style="cursor:pointer;" class="d-block w-100 img-fluid" alt="carousal-Image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="carousal-heading" >Podcast_3</h1>
+                  <p class="carousal-paragraph" >new podcast description based on the category</p>
+                </div>
+               </a>
+              </div>
+              <div class="carousel-item">
+                <a href="../newReleasesPage/newreleases.html">
+                <img src="./images/carousalimg1.jpg" style="cursor:pointer;" class="d-block w-100 img-fluid" alt="carousal-Image">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="carousal-heading" >Podcast_4</h1>
+                  <p class="carousal-paragraph" >new podcast description based on the category</p>
+                </div>
+               </a>
+              </div>
+            </div>   
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>    
+    </div>
+  
+  <div class="add-block1">
+   add block
+  </div>
+    </div>
+    <h3 class="new-releases-paragraph">
+      View the new uploads of our page and enjoy the trendy.....
+    </h3>
+</section>
+<!--------------------------------------------------------------->
+
+
+
+    <!-------------------------------Top On List--------------------------------->
+    <div>
+        <div id="TopOnList" class="TopOnList-section mt-4">
+             <h1 class="section-heading ml-3 mb-2">Top On List</h1>
+            <div class="slider-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper"> 
+                                   
+                                   <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                                        <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                                        </div>
+                                    </div>
+                                    <div class="text-content">
+                                        <h1 class="card-heading">Podcast1</h1>
+                                        <h4 class="card-artist">Artist_name</h4>
+                                        <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                                </a></div>
+                               <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                                    <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="text-content">
+                                    <h1 class="card-heading">Podcast2</h1>
+                                    <h4 class="card-artist">Artist_name</h4>
+                                    <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                            </a></div>
+                           <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                                <div class="image-content">
+                                <div class="card-image">
+                                    <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h1 class="card-heading">Podcast3</h1>
+                                <h4 class="card-artist">Artist_name</h4>
+                                <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                        </a></div>
+                       <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                            <div class="image-content">
+                            <div class="card-image">
+                                <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h1 class="card-heading">Podcast4</h1>
+                            <h4 class="card-artist">Artist_name</h4>
+                            <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                    </a></div>
+                   <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                        <div class="image-content">
+                        <div class="card-image">
+                            <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <h1 class="card-heading">Podcast5</h1>
+                        <h4 class="card-artist">Artist_name</h4>
+                        <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                </div>
+                       <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                            <div class="image-content">
+                            <div class="card-image">
+                                <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h1 class="card-heading">Podcast6</h1>
+                            <h4 class="card-artist">Artist_name</h4>
+                            <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                    </div>
+                   <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                        <div class="image-content">
+                        <div class="card-image">
+                            <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                        </div>
+                    </div>
+                    <div class="text-content"></a>
+                        <h1 class="card-heading">Podcast7</h1>
+                        <h4 class="card-artist">Artist_name</h4></a>
+                        <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                </a></div>
+                           <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                                <div class="image-content">
+                                <div class="card-image">
+                                    <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h1 class="card-heading">Podcast8</h1>
+                                <h4 class="card-artist">Artist_name</h4>
+                                <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                        </a></div>
+                       <div class="slider-card swiper-slide"><a href="../topOnListPage/toponlistpage.html" style="text-decoration:none;"> 
+                            <div class="image-content">
+                            <div class="card-image">
+                                <img src="./images/podcast-image.jpg" alt="card-img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h1 class="card-heading">Podcast9</h1>
+                            <h4 class="card-artist">Artist_name</h4></a>
+                            <p class="card-description text-center">This is the detailed description of the podcast containing deatails like duration,category and more..</p></div>
+                    </a></div>
+
+                    </div>    
+                </div>
+                <div class="swiper-button-next swiper-btn"></div>
+                <div class="swiper-button-prev swiper-btn"></div>
+                <div class="swiper-pagination"></div>
+    </div>
+    <!---------------------------------------------------------------------------->
+          <!----------------------------------------------------------------------------------------->
+<section id="Albums" style="display:flex;flex-direction:column;">
+    <h1 class="section-heading" >Latest Albums</h1>
+      <ul class="albums-list-container">
+          
+      
+  
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image: linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+            
+     
+        <li class="albums-list-item" style="background-image:  linear-gradient(to bottom,#5372d8, rgb(37, 58, 63));padding:5px;">
+          <a href="../albumsPage/albums.html" style="text-decoration:none;">
+          <img  class="album-img" src="./images/album-img.jpeg" />
+          <div class="album-content">
+          <h4 class="album-heading" >Album</h4>
+          <h3 class="album-paragraph">Artist_name</h3>
+          </div>
+          </a>
+        </li>
+      </ul>
+  </section> 
+  
+  <!-------------------------------------------------------------------------------->  
+  <section id="audienceFavorites" style="display:flex;flex-direction:column;">
+    <h1 class="section-heading" >Audience Favorites</h1>
+      <ul class="AF-container" style="--column-count:4;--grid-gap:15px;--max-container-width:240px;">
+          
+      
+  
+        <li class="AF_list-item" >
+       <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+          <img  class="AF-img" src="./images/AF-img.jpg" />
+       <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+          <p class="AF-paragraph">category_name</p>
+          </a>
+        </li>
+        <li class="AF_list-item" >
+          <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+             <img  class="AF-img" src="./images/AF-img.jpg" />
+          <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+             <p class="AF-paragraph">category_name</p>
+             </a>
+           </li>
+            <li class="AF_list-item" >
+            <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+               <img  class="AF-img" src="./images/AF-img.jpg" />
+            <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+               <p class="AF-paragraph">category_name</p>
+               </a>
+             </li>
+             <li class="AF_list-item" >
+              <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                 <img  class="AF-img" src="./images/AF-img.jpg" />
+              <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                 <p class="AF-paragraph">category_name</p>
+                 </a>
+               </li>
+               <li class="AF_list-item" >
+                <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                   <img  class="AF-img" src="./images/AF-img.jpg" />
+                <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                   <p class="AF-paragraph">category_name</p>
+                   </a>
+                 </li>
+                 <li class="AF_list-item" >
+                  <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                     <img  class="AF-img" src="./images/AF-img.jpg" />
+                  <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                     <p class="AF-paragraph">category_name</p>
+                     </a>
+                   </li>
+                   <li class="AF_list-item" >
+                    <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                       <img  class="AF-img" src="./images/AF-img.jpg" />
+                    <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                       <p class="AF-paragraph">category_name</p>
+                       </a>
+                     </li>
+                     <li class="AF_list-item" >
+                      <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                         <img  class="AF-img" src="./images/AF-img.jpg" />
+                      <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                         <p class="AF-paragraph">category_name</p>
+                         </a>
+                       </li>
+                       <li class="AF_list-item" >
+                        <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;">
+                           <img  class="AF-img" src="./images/AF-img.jpg" />
+                        <a href="../audienceFavouritesPage/audienceFavourites.html" style="text-decoration:none;"><h4 class="AF-heading" >Podcast_name</h4></a>
+                           <p class="AF-paragraph">category_name</p>
+                           </a>
+                         </li>
+                       
+    </ul>
+    </section>
+  <!---------------------------------------------------------------------------------->
+
+  <!----------------------------footer----------------------------------------------->
+<div class="footer-section pt-5 pb-5" style="background-color: rgb(192, 231, 231);">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 text-center">
+        <h1 class="footer-heading">TeluguOne</h1>
+        <div class="d-flex flex-row justify-content-between flex-wrap" style="max-width:250px">
+          <a href="#" style="text-decoration:none;" class="footer-links">Company</a>
+          <a href="#" style="text-decoration:none;"  class="footer-links">Contact</a>
+          <a href="#" style="text-decoration:none;"  class="footer-links">About Us</a>
+          <a href="#" style="text-decoration:none;"  class="footer-links">Advertising</a>
+      </div>
+      </div>
+      <div class="col-6">
+      <div class="col-12">
+        <h1 class="follow-us-section-heading">Follow Us</h1>
+      </div>
+      
+        <div class="d-flex flex-row justify-content-between" style="flex-wrap:wrap;">
+          <a href="https://twitter.com/Theteluguone" target="_blank" style="text-decoration:none;">
+          <div class="follow-us-icon-container">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/teluguone/?hl=en" target="_blank" style="text-decoration:none;">
+          <div class="follow-us-icon-container">
+            <i class="fab fa-instagram icon"></i>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/theteluguone/" target="_blank" style="text-decoration:none;">
+          <div class="follow-us-icon-container">
+            <i class="fab fa-facebook icon"></i>
+          </div>
+        </a>
+      </div>
+      </div>
+      <div class="col-12">
+      <div class="d-flex flex-column text-start" style="max-width:100%">
+        <p  class="copy-right">Copyright @ 2023 TeluguOne.com All Rights Reserved</p>
+       <p class="copy-right">Disclaimer:</p>
+       <p class="copy-right">   All content included on this TeluguOne.com Portal including text, graphics, images, videos and audio clips, is the property of ObjectOne Information Systems Ltd. 
+        or our associates, and protected by copyright laws. The collection, arrangement and assembly of all content on this portal/ related channels is the exclusive property
+       of ObjectOne Information Systems Ltd. or our associates and protected copyright laws.<br>You may not copy, reproduce, distribute, publish, display, perform, modify,
+         create derivative works, transmit, or in any other way exploit any part of copyrighted material without permission from ObjectOne Information Systems Ltd or our associates.</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>       
+</div> 
+</body>
+<script src="./swiper-bundle.min.js"></script>
+<script src="./swiper.js"></script>
+</html>
